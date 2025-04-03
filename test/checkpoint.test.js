@@ -17,7 +17,7 @@ describe('Problema del Cambio de Monedas', () => {
     });
 
     test('Debe manejar correctamente casos con montos moderadamente grandes', () => {
-        expect(cambioMinimoMonedas([1, 5, 10, 25], 100)).toBe(4); // 25+25+25+25
+        expect(cambioMinimoMonedas([1, 5, 10, 25], 100)).toBe(4);
     });
 });
 
