@@ -26,9 +26,9 @@ function puedePartirse(nums) {
     // en dos subconjuntos disjuntos cuya suma sea exactamente la misma.
 
     // Consideraciones:
-    // 1️ Si la suma total de los elementos es impar, no es posible hacer la partición y la función retorna `false`.
-    // 2️ Si la suma es par, el problema se reduce a determinar si existe un subconjunto cuya suma sea igual a la mitad de la suma total.
-    // 3️ Se utiliza una técnica de programación dinámica para explorar todas las posibles sumas alcanzables con los elementos del array.
+    // Si la suma total de los elementos es impar, no es posible hacer la partición y la función retorna `false`.
+    // Si la suma es par, el problema se reduce a determinar si existe un subconjunto cuya suma sea igual a la mitad de la suma total.
+    // Se utiliza una técnica de programación dinámica para explorar todas las posibles sumas alcanzables con los elementos del array.
        //
     // Tu código:
   
