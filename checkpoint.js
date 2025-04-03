@@ -14,7 +14,8 @@ function cambioMinimoMonedas(monedas, monto) {
     cambioMinimoMonedas([1, 2, 5], 11) → 3  (5 + 5 + 1)
     cambioMinimoMonedas([2], 3) → -1  (No se puede obtener 3 con solo monedas de 2)
     */
- //tu codigo:
+    //
+    // Tu código:
 
     
 }
@@ -28,8 +29,9 @@ function puedePartirse(nums) {
     // 1️ Si la suma total de los elementos es impar, no es posible hacer la partición y la función retorna `false`.
     // 2️ Si la suma es par, el problema se reduce a determinar si existe un subconjunto cuya suma sea igual a la mitad de la suma total.
     // 3️ Se utiliza una técnica de programación dinámica para explorar todas las posibles sumas alcanzables con los elementos del array.
-    
-    // tu codigo:
+       //
+    // Tu código:
+  
 
   
 }
@@ -96,8 +98,9 @@ function encontrarConVecinos(lista, numero) {
     // encontrarConVecinos([1, 2, 3, 4, 5], 3) → [2, 3, 4]
     // encontrarConVecinos([10, 20, 30, 40], 10) → [10, 20]
     // encontrarConVecinos([5, 15, 25], 50) → "El número no está en la secuencia"
-
-    //tu codigo:
+    //
+    // Tu código:
+    
 
 
 }
@@ -110,19 +113,16 @@ function caminosUnicos(filas, columnas) {
     // Solo puede moverse hacia la derecha o hacia abajo en cada paso.
     // Implementa la función `caminosUnicos(filas, columnas)` que devuelva el número total de caminos 
     // únicos que puede tomar el robot para llegar a la celda inferior derecha.
-    
-    //tu codigo:
+       //
+    // Tu código:
+   
 
 
 }
 
 
-
-
-
-
-
-
+// No modificar nada debajo de esta línea
+// =======================================================================
 
 
 module.exports = {
